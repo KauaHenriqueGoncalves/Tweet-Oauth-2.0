@@ -105,12 +105,18 @@ Authorization: Bearer <token>
 Example response:
 
 ```json
-[
-  {
-    "id": 1,
-    "author": "Test",
-    "content": "Hello world!",
-    "createdAt": "2025-09-20T12:34:56Z"
-  }
-]
+{
+  "feedItems": [
+    {
+      "idTweet": 1,
+      "content": "Today I gonna for a walk with dog!",
+      "username": "Kauã Henrique",
+      "createdAt": "2025-09-20T19:17:42.373436Z"
+    }
+  ],
+  "page": 0,
+  "pageSize": 1,
+  "totalPages": 2,
+  "totalItens": 2
+}
 ```
