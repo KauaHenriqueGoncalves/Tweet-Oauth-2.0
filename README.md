@@ -1,11 +1,11 @@
-# 🐦 Tweet + OAuth2
+# Tweet + OAuth2
 
 This project demonstrates a **Spring Boot REST API** with user authentication and authorization using **JWT (JSON Web Token)** and **OAuth2 principles**.  
 It includes user management, secured endpoints, and role-based access (e.g., admin).
 
 ---
 
-## ✨ Features
+## Features
 
 - User registration
 - JWT-based authentication
@@ -16,7 +16,7 @@ It includes user management, secured endpoints, and role-based access (e.g., adm
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Java 17+**
 - **Maven**
@@ -26,9 +26,9 @@ It includes user management, secured endpoints, and role-based access (e.g., adm
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### ⚙️ Prerequisites
+### Prerequisites
 - Java 17 or later
 - Maven 3.8+
 - Docker (optional but recommended)
@@ -45,7 +45,7 @@ It includes user management, secured endpoints, and role-based access (e.g., adm
   docker-compose up --build
 ```
 
-## 🚪 API Endpoints
+## API Endpoints
 
 ### 1. Create User (Public)
 
